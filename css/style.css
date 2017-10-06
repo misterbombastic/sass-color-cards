@@ -1,0 +1,55 @@
+.base, .light, .lighter, .dark, .darker, body {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.base, .light, .lighter, .dark, .darker {
+  background: #0f9988;
+  width: 300px;
+  height: 300px; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+body {
+  color: #fff;
+  font-family: sans-serif; }
+
+.base {
+  width: 360px;
+  height: 360px;
+  order: 3; }
+  .base:after {
+    content: "(#0f9988)"; }
+
+.light {
+  background: #11b09d;
+  order: 2; }
+  .light:after {
+    content: "(#11b09d)"; }
+
+.lighter {
+  width: 225px;
+  height: 225px;
+  background: #14c7b1;
+  order: 1; }
+  .lighter:after {
+    content: "(#14c7b1)"; }
+
+.dark {
+  background: #0d8273;
+  order: 4; }
+  .dark:after {
+    content: "(#0d8273)"; }
+
+.darker {
+  width: 225px;
+  height: 225px;
+  background: #0a6b5f;
+  order: 5; }
+  .darker:after {
+    content: "(#0a6b5f)"; }
+
+/*# sourceMappingURL=style.css.map */
